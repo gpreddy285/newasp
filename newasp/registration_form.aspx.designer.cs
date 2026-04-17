@@ -78,6 +78,15 @@ namespace newasp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvemali;
 
         /// <summary>
+        /// rgvemail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rgvemail;
+
+        /// <summary>
         /// txtpass control.
         /// </summary>
         /// <remarks>
@@ -112,6 +121,15 @@ namespace newasp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvcpass;
+
+        /// <summary>
+        /// cvpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvpass;
 
         /// <summary>
         /// txtmobile control.

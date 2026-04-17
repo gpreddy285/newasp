@@ -12,11 +12,20 @@
             Enter your First Name<asp:TextBox ID="txtfname" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvfname" runat="server" ForeColor="Red" ErrorMessage="please enter first name" ControlToValidate="txtfname"></asp:RequiredFieldValidator>
             <br />
-            Enter your Last Name<asp:TextBox ID="txtlname" runat="server"></asp:TextBox><br />
-            Enter your Email<asp:TextBox ID="txtemail" runat="server"></asp:TextBox><br />
-            Enter your Password<asp:TextBox ID="txtpass" runat="server"></asp:TextBox><br />
-            Confirm Password<asp:TextBox ID="txtcpass" runat="server"></asp:TextBox><br />
-            Enter Mobile number<asp:TextBox ID="txtmobile" runat="server"></asp:TextBox><br />
+            Enter your Last Name<asp:TextBox ID="txtlname" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvlname" runat="server" ControlToValidate="txtlname" ErrorMessage="please enter last name" ForeColor="Red"></asp:RequiredFieldValidator>
+                <br />
+            Enter your Email<asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvemali" runat="server" ControlToValidate="txtemail" ErrorMessage="please enter EmailId" ForeColor="Red"></asp:RequiredFieldValidator><br />
+            Enter your Password<asp:TextBox ID="txtpass" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvpass" runat="server" ControlToValidate="txtpass" ErrorMessage="please enter your  password" ForeColor="Red"></asp:RequiredFieldValidator>
+            <br />
+            Confirm Password<asp:TextBox ID="txtcpass" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvcpass" runat="server" ControlToValidate="txtcpass" ErrorMessage="please re-enter your password" ForeColor="Red"></asp:RequiredFieldValidator>
+            <br />
+            Enter Mobile number<asp:TextBox ID="txtmobile" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvmobile" runat="server" ControlToValidate="txtmobile" ErrorMessage="please enter mobile number" ForeColor="Red"></asp:RequiredFieldValidator>
+            <br />
             <br />
             <asp:Button ID="btnsubmit" runat="server" Text="Submit" />
         </div>

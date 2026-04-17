@@ -51,6 +51,15 @@ namespace newasp
         protected global::System.Web.UI.WebControls.TextBox txtlname;
 
         /// <summary>
+        /// rfvlname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvlname;
+
+        /// <summary>
         /// txtemail control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace newasp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtemail;
+
+        /// <summary>
+        /// rfvemali control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvemali;
 
         /// <summary>
         /// txtpass control.
@@ -69,6 +87,15 @@ namespace newasp
         protected global::System.Web.UI.WebControls.TextBox txtpass;
 
         /// <summary>
+        /// rfvpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvpass;
+
+        /// <summary>
         /// txtcpass control.
         /// </summary>
         /// <remarks>
@@ -78,6 +105,15 @@ namespace newasp
         protected global::System.Web.UI.WebControls.TextBox txtcpass;
 
         /// <summary>
+        /// rfvcpass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvcpass;
+
+        /// <summary>
         /// txtmobile control.
         /// </summary>
         /// <remarks>
@@ -85,6 +121,15 @@ namespace newasp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtmobile;
+
+        /// <summary>
+        /// rfvmobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvmobile;
 
         /// <summary>
         /// btnsubmit control.

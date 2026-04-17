@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Enter your First Name<asp:TextBox ID="txtfname" runat="server"></asp:TextBox><br />
+            Enter your First Name<asp:TextBox ID="txtfname" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvfname" runat="server" ForeColor="Red" ErrorMessage="please enter first name" ControlToValidate="txtfname"></asp:RequiredFieldValidator>
+            <br />
             Enter your Last Name<asp:TextBox ID="txtlname" runat="server"></asp:TextBox><br />
             Enter your Email<asp:TextBox ID="txtemail" runat="server"></asp:TextBox><br />
             Enter your Password<asp:TextBox ID="txtpass" runat="server"></asp:TextBox><br />

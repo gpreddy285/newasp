@@ -42,6 +42,15 @@ namespace newasp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvfname;
 
         /// <summary>
+        /// tevfname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator tevfname;
+
+        /// <summary>
         /// txtlname control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace newasp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvlname;
+
+        /// <summary>
+        /// revlname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revlname;
 
         /// <summary>
         /// txtemail control.

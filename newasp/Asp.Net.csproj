@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="cookiedata.aspx" />
     <Content Include="cookies.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="numberofusers.aspx" />
     <Content Include="qslogin.aspx" />
     <Content Include="querystring.aspx" />
     <Content Include="registration_form.aspx" />
@@ -94,6 +96,16 @@
     </Compile>
     <Compile Include="cookies.aspx.designer.cs">
       <DependentUpon>cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="numberofusers.aspx.cs">
+      <DependentUpon>numberofusers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="numberofusers.aspx.designer.cs">
+      <DependentUpon>numberofusers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="movieticketbooking.aspx.cs">

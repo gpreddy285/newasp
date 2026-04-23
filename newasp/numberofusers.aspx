@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sessionstate.aspx.cs" Inherits="newasp.sessionstate" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="numberofusers.aspx.cs" Inherits="newasp.numberofusers" %>
 
 <!DOCTYPE html>
 
@@ -9,8 +9,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            
-            <asp:Button ID="button1" runat="server" Text="Submit" OnClick="button1_Click" />
             <asp:Label ID="lblcount" runat="server"></asp:Label>
         </div>
     </form>
